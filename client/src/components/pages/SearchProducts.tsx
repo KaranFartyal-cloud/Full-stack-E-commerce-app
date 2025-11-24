@@ -1,6 +1,6 @@
 import { useBackendUrl } from "@/context/BackendProvider";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { toast } from "sonner";
 

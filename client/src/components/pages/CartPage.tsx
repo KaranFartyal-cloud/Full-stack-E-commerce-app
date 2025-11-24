@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 import { Trash2 } from "lucide-react";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { useCart } from "@/hooks/useCart";

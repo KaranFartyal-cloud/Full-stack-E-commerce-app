@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { ShoppingBag } from "lucide-react";
+import{ useEffect, useState } from "react";
+
 import axios from "axios";
 import { useBackendUrl } from "@/context/BackendProvider";
 import { toast } from "sonner";
